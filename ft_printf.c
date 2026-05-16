@@ -1,6 +1,6 @@
 #include "ft_printf.h"
 
-int    ft_check(char flag, va_list args
+int    ft_check(char flag, va_list args)
 {
     if (flag == 'c')
         ft_putchar (va_arg(args, int));
